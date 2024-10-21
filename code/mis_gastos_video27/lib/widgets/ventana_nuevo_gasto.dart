@@ -50,11 +50,11 @@ class _VentanaNuevoGastoState extends State<VentanaNuevoGasto> {
                 icon:Icon(Icons.calendar_month),)
             ],
           ),
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Row(
             children: [
-              Text('Seleccionar Categoria'),
-              SizedBox(width: 30,),
+              const Text('Seleccionar Categoria'),
+              const SizedBox(width: 30,),
               DropdownButton(
                 value: _categoriaSeleccionada,
                 items: Categoria.values.map(
